@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ambigram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.6 161.53">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 6px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #ba715a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 4px;
+      }
+      /* Responsive behavior with transitions */
+      svg * {
+        transition: opacity .3s ease-out;
+      }
+
+      /* Large screens - everything is visible (default) */
+      
+      /* Medium screens - hide Full-Logo-Sides */
+      @media all and (max-width: 900px) {
+        #Full-Logo-Sides {
+          opacity: 0;
+        }
+      }
+      
+      /* Small screens - hide Mid-Detail */
+      @media all and (max-width: 600px) {
+        #Mid-Detail {
+          opacity: 0;
+        }
+      }
+      
+      /* Extra small screens - hide Mid-Sides */
+      @media all and (max-width: 400px) {
+        #Mid-Sides {
+          opacity: 0;
+        }
+      }
+    </style>
+  </defs>
+  <g id="Full-Logo">
+    <g id="Mid-Logo">
+      <g id="No-Detail-Mid">
+        <g id="Core">
+          <g>
+            <line class="cls-2" x1="288.67" y1="127.62" x2="288.67" y2="33.82"/>
+            <line class="cls-2" x1="192.85" y1="127.6" x2="192.85" y2="33.81"/>
+            <path class="cls-2" d="M288.67,33.82c-26.4,0-47.93,11.63-47.93,46.91s-21.91,46.87-47.88,46.87"/>
+          </g>
+          <polyline class="cls-2" points="260.69 80.71 240.82 80.72 220.83 80.71"/>
+          <path class="cls-1" d="M288.62,143.12s-.1,0,0,0,0,0,0,0h0Z"/>
+          <path class="cls-1" d="M192.89,18.37s-.1,0,0,0,0,0,0,0h0Z"/>
+        </g>
+        <g id="Mid-Sides">
+          <g>
+            <path class="cls-2" d="M331.87,33.38c70.12,34.07,59.49,94.67-4.17,94.67-5.81,0-8.63-.07-17.61-.18"/>
+            <line class="cls-2" x1="323.77" y1="124.93" x2="324.01" y2="76.49"/>
+            <line class="cls-2" x1="345.62" y1="91.69" x2="379.44" y2="91.7"/>
+          </g>
+          <g>
+            <path class="cls-2" d="M149.67,128.05c-70.12-34.07-59.49-94.67,4.17-94.67,5.81,0,8.63.07,17.61.18"/>
+            <line class="cls-2" x1="157.78" y1="36.5" x2="157.53" y2="84.95"/>
+            <line class="cls-2" x1="135.92" y1="69.74" x2="102.1" y2="69.73"/>
+          </g>
+        </g>
+      </g>
+      <g id="Mid-Detail">
+        <path class="cls-2" d="M379.7,139.26c-49.61,32.06-132.65,20.13-186.53,4.77"/>
+        <path class="cls-2" d="M101.85,22.27c49.61-32.06,132.65-20.13,186.53-4.77"/>
+      </g>
+    </g>
+    <g id="Full-Logo-Sides">
+      <g>
+        <path class="cls-1" d="M417.7,18.46s.1,0,0,0,0,0,0,0h0Z"/>
+        <path class="cls-2" d="M478.51,33.7c-10.87-.52-14.64,2.27-18.05,7.75-4.55,7.3-3.28,18.17,2.18,25.95,8.29,11.82,11.09,12.78,15.05,22.18,5.42,12.86-.68,29.46-18.27,35.18-3.65,1.19-11.97,2.85-15.49,2.98l-.62-.53c-10.12-9.99-14.37-17.44-17.29-24.71-3.75-9.35-5.09-18.25-6.52-28.7-2.14-15.63-2.24-34.35-2.37-40.09l.76-.03c.01,5.74.38,24.45-1.38,40.13-1.17,10.49-2.29,19.41-5.81,28.85-2.74,7.34-6.8,14.89-16.67,25.13"/>
+      </g>
+      <g>
+        <path class="cls-1" d="M63.89,142.83s-.1,0,0,0,0,0,0,0h0Z"/>
+        <path class="cls-2" d="M3.08,127.76c10.87.52,14.64-2.27,18.05-7.75,4.55-7.3,3.28-18.17-2.18-25.95-8.29-11.82-11.09-12.78-15.05-22.18-5.42-12.86.68-29.46,18.27-35.18,3.65-1.19,11.97-2.85,15.49-2.98l.62.53c10.12,9.99,14.37,17.44,17.29,24.71,3.75,9.35,5.09,18.25,6.52,28.7,2.14,15.63,2.24,34.35,2.37,40.09l-.76.03c-.01-5.74-.38-24.45,1.38-40.13,1.17-10.49,2.29-19.41,5.81-28.85,2.74-7.34,6.8-14.89,16.67-25.13"/>
+      </g>
+    </g>
+  </g>
+</svg>
