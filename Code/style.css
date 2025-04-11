@@ -8,6 +8,20 @@ body {
   transition: background-color 0.4s;
 }
 
+/* Updated rotation classes */
+.container img {
+    transition: transform 0.6s ease;
+    transform: rotate(0deg); /* Default state */
+  }
+  
+  .rotate-0 {
+    transform: rotate(0deg) !important;
+  }
+  
+  .rotate-180 {
+    transform: rotate(180deg) !important;
+  }
+
 /* Light mode */
 body.light-mode {
   background-color: #e8e8e8;
